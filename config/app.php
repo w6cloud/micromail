@@ -68,6 +68,7 @@ return [
 
     'providers' => [
         App\Providers\AppServiceProvider::class,
+        LaravelZero\Framework\Components\Logo\Provider::class
     ],
 
 ];
