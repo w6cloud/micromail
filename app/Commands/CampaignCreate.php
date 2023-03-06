@@ -132,6 +132,17 @@ class CampaignCreate extends Command
                     return File::put($config['path'].'/config.php', $fileContent);
                 }
             );
+            $this->task(
+                "Creating contact list",
+                function () use ($config) {
+                    $fileContent = <<<'CSV'
+                    email;name
+
+                    CSV;
+
+                    return File::put($config['path'].'/contacts.csv', $fileContent);
+                }
+            );
             $this->info("Campaign created.");
         } else {
             $this->info("Campaign creation cancelled.");
