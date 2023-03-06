@@ -1,0 +1,28 @@
+{
+  "name": "micromail",
+  "version": "0.0.1",
+  "description": "Micromail helps sending templated emails to a list of recipients.",
+  "main": "",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "commit": "commit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w6cloud/micromail.git"
+  },
+  "author": "WEB6 Cloud <hello@web6.cloud> (https://web6.cloud)",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/w6cloud/micromail/issues"
+  },
+  "homepage": "https://github.com/w6cloud/micromail#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@commitlint/prompt-cli": "^17.4.4",
+    "husky": "^8.0.3"
+  }
+}
