@@ -1,0 +1,29 @@
+{
+    "recommendations": [
+        "igorsbitnev.error-gutters",
+        "eamodio.gitlens",
+        "yzhang.markdown-all-in-one",
+        "onecentlin.laravel-extension-pack",
+        "xdebug.php-pack",
+        "neilbrayfield.php-docblocker",
+        "usernamehw.errorlens",
+        "stoildobreff.php-resolver",
+        "huntertran.auto-markdown-toc",
+        "formulahendry.auto-rename-tag",
+        "bladnman.auto-align",
+        "aaron-bond.better-comments",
+        "adam-bender.commit-message-editor",
+        "joshbolduc.commitlint",
+        "tombonnike.vscode-status-bar-format-toggle",
+        "oderwat.indent-rainbow",
+        "robole.marky-markdown",
+        "pkief.material-icon-theme",
+        "ibm.output-colorizer",
+        "christian-kohler.path-intellisense",
+        "pwarchol.vscode-php-file-link",
+        "marabesi.php-import-checker",
+        "mehedidracula.php-namespace-resolver",
+        "sonarsource.sonarlint-vscode",
+        "tyriar.sort-lines"
+    ]
+}

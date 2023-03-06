@@ -4,5 +4,34 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+        "files.exclude": {
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            "**/Thumbs.db": true,
+            "vendor": true
+        },
+        "commit-message-editor.view.defaultView": "form",
+        "commit-message-editor.view.saveAndClose": true,
+        "git.autofetch": true,
+        "html.format.wrapLineLength": 0,
+        "indentRainbow.indicatorStyle": "light",
+        "path-intellisense.autoSlashAfterDirectory": true,
+        "path-intellisense.autoTriggerNextSuggestion": true,
+        "php-docblocker.alignParams": true,
+        "php-docblocker.alignReturn": true,
+        "php-docblocker.author": {
+            "name": "WEB6 Cloud",
+            "email": "hello@web6.cloud"
+        },
+        "php-docblocker.qualifyClassNames": true,
+        "namespaceResolver.sortOnSave": true,
+        "namespaceResolver.showMessageOnStatusBar": true,
+        "phpResolver.autoImportOnSave": true,
+        "phpResolver.errorLogTruncateSize": 0,
+        "sortLines.sortEntireFile": true
+    }
 }
